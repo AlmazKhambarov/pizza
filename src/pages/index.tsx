@@ -21,7 +21,7 @@ function Index() {
     }, []);
 
     return (
-        <div>foo</div>
+        <div>i start home page</div>
     );
 }
 
