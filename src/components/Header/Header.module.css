@@ -1,0 +1,124 @@
+.items_block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}
+
+.item_block {
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header_main_block {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.choose_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose_block h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+}
+
+.select_block {
+    padding: 0px 0px 0px 20px;
+}
+
+
+.select_block select {
+    direction: rtl;
+    color: rgba(255, 255, 255, 1);
+    width: 186px;
+    text-align: center;
+    height: 53px;
+    border-radius: 16px;
+    background: rgba(31, 29, 43, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+}
+
+.select_block select:focus {
+    outline: none;
+}
+
+.item {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    flex-direction: column;
+    position: relative;
+    border-radius: 15px;
+    padding: 120px 25px 20px 25px;
+    background: rgba(31, 29, 43, 1);
+}
+
+.rounded_image_container {
+    position: absolute;
+    width: 200px;
+    top: -100px;
+    left: 25px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.info_block__title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    width: 190px;
+}
+
+.item__info_block {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.info_block__price {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+}
+
+.item__info_block span {
+    color: rgba(171, 187, 194, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+}
+
+.item__button_block {
+    display: flex;
+    justify-content: center;
+}
+
+.item__button_block button {
+    border-radius: 8px;
+    width: 100dvw;
+    height: 100dvh;
+    max-width: 180px;
+    color: white;
+    background: rgba(234, 124, 105, 1);
+    max-height: 46px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
