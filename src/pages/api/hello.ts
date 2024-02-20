@@ -1,13 +1,10 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import type { NextApiRequest, NextApiResponse } from "next";
+import {Product} from "@/interfaces";
+import axios from "axios";
+import {GetServerSideProps} from "next";
 
-type Data = {
-  name: string;
-};
-
-export default function handler(
-  req: NextApiRequest,
-  res: NextApiResponse<Data>,
-) {
-  res.status(200).json({ name: "John Doe" });
-}
+export const getServerSideProps = (async () => {
+    // Fetch data from external API
+    const data: Product[] = (await axios.get('http://localhost:3000/products')).data
+    // Pass data to the page via props
+    return { props: { data } }
+}) satisfies GetServerSideProps<{ data: Product[] }>

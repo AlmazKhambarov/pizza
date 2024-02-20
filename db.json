@@ -17,7 +17,7 @@
       "title": "Spicy seasoned seafood  ",
       "category": ["All", "Hot Dishes"],
       "countable": 1,
-      "img": "images/first.png",
+      "img": "https://c8.alamy.com/comp/G41ADP/yummy-delicious-chicken-biryani-in-a-round-bowl-G41ADP.jpg",
       "price": 2.79,
       "available": 7,
       "amount": 2.79
@@ -72,7 +72,7 @@
       "title": "Curd Rice",
       "category": ["All", "Soup"],
       "countable": 1,
-      "img": "https://foodiviews.com/wp-content/uploads/2023/01/Curd-rice.jpeg",
+      "img": "https://www.unileverfoodsolutions.pk/dam/global-ufs/mcos/meps/pakistan/calcmenu/recipes/PK-recipes/laal-maas/laal-maas-main-header-1260x709.jpg",
       "price": 4.29,
       "available": 20,
       "amount": 4.29

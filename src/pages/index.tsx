@@ -1,28 +1,27 @@
 import React, {useEffect} from 'react';
-import {log} from "util";
+import type { InferGetServerSidePropsType } from 'next'
+import {getServerSideProps} from "@/pages/api/hello";
+import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
+import Header from "@/components/Header";
+import styles from '../styles/Home.module.css'
 
 
-function Index() {
 
 
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const res = await fetch('http://localhost:3000/products');
-                const jsonData = await res.json();
-                console.log(jsonData)
-            } catch (error) {
-                console.error('Error fetching data:');
-            }
-        };
-
-        fetchData();
-    }, []);
-
+function Index({data}: InferGetServerSidePropsType<typeof getServerSideProps>) {
     return (
-        <div>foo</div>
+        <main className={styles.main_block}>
+            <Sidebar />
+            <div className={styles.main_interface}>
+                <Navbar />
+                <Header data={data} />
+            </div>
+        </main>
     );
 }
 
+
+export {getServerSideProps}
 export default Index;
