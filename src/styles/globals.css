@@ -10,3 +10,20 @@ body {
     background: rgba(37, 40, 54, 1);
     color: white;
 }
+
+.ant-select-arrow {
+    left: 25px !important;
+}
+
+.ant-select-selection-item {
+    text-align: right !important;
+    color: white !important;
+}
+
+.ant-select-selector:hover {
+    border: 1px solid white !important;
+}
+
+.ant-select-selector {
+    border: 1px solid white !important;
+}

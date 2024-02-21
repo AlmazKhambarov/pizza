@@ -1,6 +1,7 @@
-import {Product} from "@/interfaces";
+
 import axios from "axios";
 import {GetServerSideProps} from "next";
+import {Product} from "@/interfaces/index";
 
 export const getServerSideProps = (async () => {
     // Fetch data from external API

@@ -1,26 +1,15 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   reactStrictMode: true,
-// };
-//
-// export default nextConfig;
-
-export default {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  images: {
-    domains: [
-      'c.ndtvimg.com',
-      'c8.alamy.com',
-      'mitarcooking.com',
-      'www.indianveggiedelight.com',
-      'encrypted-tbn0.gstatic.com',
-      'foodiviews.com',
-      'www.cookingcarnival.com',
-      '1.bp.blogspot.com',
-      'soyummyrecipes.co.uk',
-      'www.unileverfoodsolutions.pk',
-      "www.unileverfoodsolutions.pk",
-        'img-global.cpcdn.com'
+    transpilePackages: [
+      'rc-util',
+      '@ant-design',
+      'kitchen-flow-editor',
+      '@ant-design/pro-editor',
+      'zustand', 'leva', 'antd',
+      'rc-pagination',
+      'rc-picker'
     ],
-  },
-}
+};
+
+export default nextConfig;

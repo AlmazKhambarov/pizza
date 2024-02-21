@@ -23,7 +23,7 @@ function NavBar() {
                     <ul className={styles.bottom_block__ul}>
                     {categoriesArr.map((el, index) => {
                         return (
-                            <li key={index} className={ !index ? styles.active_category : null}>{el}</li>
+                            <li key={index} className={ !index ? styles.active_category : ''}>{el}</li>
                         )
                     })}
                 </ul>

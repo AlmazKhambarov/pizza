@@ -1,11 +1,11 @@
 import React from 'react';
-import {account, cart, discount, graph, home, home_white, menu, message, notification} from "@/assets";
 import Image from "next/image";
 import styles from './Sidebar.module.css'
+import {buttonImgArr} from "@/constants";
+import {home_white} from "@/assets";
 
 function Sidebar() {
 
-    const buttonImgArr = [menu, account, graph, message, discount, notification, cart, home ]
 
     return (
         <div className={styles.side_bar_block}>
