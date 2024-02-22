@@ -1,5 +1,4 @@
 import home from './home.svg'
-import home_white from './home-white.svg'
 import menu from './menu.svg'
 import discount from './Discount.svg'
 import graph from './Graph.svg'
@@ -14,14 +13,18 @@ import item2 from './item2.png'
 import item3 from './item3.png'
 import item4 from './item4.png'
 
-import bottom_arrow from './bottom-arrow.svg'
 
 
 
 
-export  {cart, message, home, menu, graph, account, discount, notification, search, home_white,
-    item1, item2, item3, item4, bottom_arrow
+export  {cart, message, home, menu, graph, account, discount, notification, search,
+    item1, item2, item3, item4,
 }
 
+export {default as CartWhite} from "./cart-white.svg"
+export {default as HomeWhite} from "./home-white.svg"
+export {default as AccountWhite} from "./account-white.svg"
+export {default as MenuWhite} from "./menu-white.svg"
 
 export {default as BottomArrow} from "./bottom-arrow.svg"
+export {default as NoOrders} from "./no-orders.png"

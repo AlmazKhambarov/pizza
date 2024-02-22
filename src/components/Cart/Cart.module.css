@@ -1,0 +1,150 @@
+.shutter_blur_active, .shutter_blur {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+    backdrop-filter: blur(5px); /* Размытие фона */
+    width: 100dvw;
+    height: 100dvh;
+    max-height: 100dvh;
+    background-color: rgba(0, 0, 0, 0.5); /* Прозрачный цвет фона */
+    z-index: 100;
+    transition: background-color 1s ease;
+    animation: open-blur 2s forwards;
+}
+
+.shutter_blur {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    backdrop-filter: blur(5px); /* Размытие фона */
+    width: 100dvw;
+    height: 100dvh;
+    max-height: 100dvh;
+    background-color: rgba(0, 0, 0, 0.5);; /* Прозрачный цвет фона */
+    z-index: 100;
+    transition: background-color 1s ease;
+    animation: close-blur 2s forwards;
+}
+
+.shutter_wrapper, .shutter_wrapper_active {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 30dvw;
+    height: 100dvh;
+    top: 0px;
+    padding: 20px 15px;
+    background: rgba(37, 40, 54, 1);
+    z-index: 111;
+    transition: right 2s ease;
+    animation: closeShutter 2s forwards;
+    color: white;
+    text-align: center;
+}
+
+.shutter_wrapper h1, .shutter_wrapper_active h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.shutter_wrapper_active {
+    animation: openShutter 1s forwards;
+    right: 0px;
+}
+
+.main_block {
+    height: 85dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.main_block button {
+    width: 90%;
+    height: 53px;
+    padding: 14px;
+    border-radius: 8px;
+    background: rgba(234, 124, 105, 1);
+    box-shadow: 0px 8px 24px 0px rgba(234, 124, 105, 0.3);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: white;
+    letter-spacing: 0em;
+}
+
+.not_products {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.cart_height-block {
+    display: grid;
+    text-align: left;
+    grid-template-columns: 1fr 14fr;
+}
+
+.cart_middle_block {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+
+@keyframes open-blur {
+    0% {
+        opacity: 0;
+        display: none;
+    }
+    100% {
+        opacity: 1;
+        display: block;
+    }
+}
+
+
+@keyframes close-blur {
+    0% {
+        opacity: 1;
+        display: block;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes closeShutter {
+    0% {
+        right: 0px;
+        opacity: 1;
+    }
+    100% {
+        right: -100dvw;
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes openShutter {
+    0% {
+        right: -100dvw;
+        opacity: 0;
+        display: none;
+    }
+    100% {
+        right: 0px;
+        opacity: 1;
+    }
+}
+

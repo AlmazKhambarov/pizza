@@ -27,3 +27,29 @@ body {
 .ant-select-selector {
     border: 1px solid white !important;
 }
+
+.ant-segmented-group {
+    gap: 10dvw !important;
+}
+
+.ant-segmented {
+    padding: 0px !important;
+}
+
+.Navbar_bottom_block__ul__4rCKV {
+    border-bottom: 1px solid rgba(57, 60, 73, 1);
+    border-radius: 0px !important;
+    padding: 0px;
+    width: 100%;
+}
+
+.ant-segmented-item {
+    border-radius: 0px;
+    padding: 0px 0px 18px 0px;
+}
+
+.ant-segmented-item-selected {
+    border-radius: 0px !important;
+    border-bottom: 3px solid rgba(234, 124, 105, 1);
+    padding: 0px 0px 15px 0px;
+}

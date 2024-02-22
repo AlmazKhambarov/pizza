@@ -5,16 +5,11 @@ import styles from './Header.module.css'
 import Image from "next/image";
 import {imgs, selectOptions} from "@/constants";
 import {ConfigProvider, Select} from "antd";
-import * as module from "module";
 import {BottomArrow} from "@/assets";
 
 function Header({data}: InferGetServerSidePropsType<typeof getServerSideProps>) {
 
     const [sort, setSort] = useState('Default')
-
-    function changeSort(e: string) {
-        setSort(e)
-    }
 
     return (
         <div className={styles.header_main_block}>

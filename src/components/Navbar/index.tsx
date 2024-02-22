@@ -2,6 +2,8 @@ import React from 'react';
 import {search} from "@/assets";
 import styles from './Navbar.module.css'
 import Image from "next/image";
+import {ConfigProvider, Segmented} from "antd";
+
 function NavBar() {
 
     const categoriesArr = ['Hot Dishes', 'Cold Dishes', 'Soup', 'Grill', 'Appetizer', 'Dessert']
@@ -20,17 +22,33 @@ function NavBar() {
                 </form>
             </div>
             <div className={styles.navbar__bottom_block}>
-                    <ul className={styles.bottom_block__ul}>
-                    {categoriesArr.map((el, index) => {
-                        return (
-                            <li key={index} className={ !index ? styles.active_category : ''}>{el}</li>
-                        )
-                    })}
+                <ul className={styles.bottom_block__ul}>
+
+                    <ConfigProvider theme={{
+                        components: {
+                            Segmented: {
+                                itemActiveBg: 'none',
+                                itemHoverBg: 'none',
+                                itemSelectedBg: 'none',
+                                itemSelectedColor: 'rgba(234, 124, 105, 1)',
+                                trackBg: 'none',
+                                itemColor: 'white',
+                                itemHoverColor: 'none',
+
+                            },
+                        },
+                    }}>
+                        <Segmented options={categoriesArr}/>
+                    </ConfigProvider>
+
+                    {/*{categoriesArr.map((el, index) => {*/}
+                    {/*    return (*/}
+                    {/*        <li key={index} className={ !index ? styles.active_category : ''}>{el}</li>*/}
+                    {/*    )*/}
+                    {/*})}*/}
                 </ul>
             </div>
-            <div className={styles.bottom_line}>
-                <div className={styles.orange_line}></div>
-            </div>
+
         </div>
     );
 }
