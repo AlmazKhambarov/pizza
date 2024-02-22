@@ -6,7 +6,6 @@
       "title": "Mattar paneer",
       "category": ["All", "Soup"],
       "countable": 1,
-      "img": "https://c.ndtvimg.com/2020-04/e0s7nkfg_paneer-mattar_625x300_16_April_20.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=886",
       "price": 2.29,
       "available": 20,
       "amount": 2.29
@@ -17,7 +16,6 @@
       "title": "Spicy seasoned seafood  ",
       "category": ["All", "Hot Dishes"],
       "countable": 1,
-      "img": "images/first.png",
       "price": 2.79,
       "available": 7,
       "amount": 2.79
@@ -28,7 +26,6 @@
       "title": "Bombay biryani",
       "category": ["All", "Hot Dishes"],
       "countable": 1,
-      "img": "https://c8.alamy.com/comp/G41ADP/yummy-delicious-chicken-biryani-in-a-round-bowl-G41ADP.jpg",
       "price": 1.99,
       "available": 17,
       "amount": 1.99
@@ -39,7 +36,6 @@
       "title": "Malabar Fish Curry",
       "category": ["All", "Cold Dishes"],
       "countable": 1,
-      "img": "https://mitarcooking.com/wp-content/uploads/2023/05/word-image-2344-1.jpeg",
       "price": 3.99,
       "available": 23,
       "amount": 3.99
@@ -50,7 +46,6 @@
       "title": "Gobi manchurian",
       "category": ["All", "Cold Dishes"],
       "countable": 1,
-      "img": "https://www.indianveggiedelight.com/wp-content/uploads/2021/07/gobi-manchurian-1.jpg",
       "price": 2.99,
       "available": 20,
       "amount": 2.99
@@ -61,7 +56,6 @@
       "title": "Uttapam",
       "category": ["All", "Soup"],
       "countable": 1,
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0FBmx95P2og3mPsrDSBFt8IhD-uTroVMaEg&usqp=CAU",
       "price": 4.69,
       "available": 19,
       "amount": 4.69
@@ -72,7 +66,6 @@
       "title": "Curd Rice",
       "category": ["All", "Soup"],
       "countable": 1,
-      "img": "https://foodiviews.com/wp-content/uploads/2023/01/Curd-rice.jpeg",
       "price": 4.29,
       "available": 20,
       "amount": 4.29
@@ -83,7 +76,6 @@
       "title": "Shrikhand",
       "category": ["All", "Grill"],
       "countable": 1,
-      "img": "https://www.cookingcarnival.com/wp-content/uploads/2021/08/No-bake-shrikhand-tart-4.jpg",
       "price": 3.19,
       "available": 18,
       "amount": 3.19
@@ -94,7 +86,6 @@
       "title": "Punjabi kadhi",
       "category": ["All", "Grill"],
       "countable": 1,
-      "img": "https://1.bp.blogspot.com/-8aGepsSWmnc/XqH1SmmSoNI/AAAAAAABEQw/0hSe-oftpK8NtV7erhmggGWp2kWOBgucQCLcBGAsYHQ/s640/kadhi%2Bpakoda%2B%25281%2529.JPG",
       "price": 2.19,
       "available": 22,
       "amount": 2.19
@@ -105,7 +96,6 @@
       "title": "Jeera Rice",
       "category": ["All", "Appetizer"],
       "countable": 1,
-      "img": "https://soyummyrecipes.co.uk/wp-content/uploads/2021/11/Tuna-Fried-Rice-1.jpg.webp",
       "price": 3.69,
       "available": 11,
       "amount": 3.29
@@ -116,7 +106,6 @@
       "title": "Gajar ka halwa",
       "category": ["All", "Appetizer"],
       "countable": 1,
-      "img": "https://img-global.cpcdn.com/recipes/55ebf1234ed9f9b9/680x482cq70/gajar-ka-halwa-recipe-main-photo.jpg",
       "price": 2.69,
       "available": 10,
       "amount": 2.69
@@ -127,7 +116,6 @@
       "title": "Laal maas",
       "category": ["All", "Soup"],
       "countable": 1,
-      "img": "https://www.unileverfoodsolutions.pk/dam/global-ufs/mcos/meps/pakistan/calcmenu/recipes/PK-recipes/laal-maas/laal-maas-main-header-1260x709.jpg",
       "price": 3.29,
       "available": 17,
       "amount": 3.29
@@ -138,7 +126,6 @@
       "title": "Mattar paneer",
       "category": ["All", "Soup"],
       "countable": 1,
-      "img": "https://c.ndtvimg.com/2020-04/e0s7nkfg_paneer-mattar_625x300_16_April_20.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=886",
       "price": 2.29,
       "available": 20,
       "amount": 2.29
